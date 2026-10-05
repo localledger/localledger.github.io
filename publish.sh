@@ -12,7 +12,7 @@ git add -A && git -c user.name="Neil Sutaria" -c user.email="Sutaria.neil@gmail.
 
 if ! gh repo view "$ORG/$REPO" >/dev/null 2>&1; then
   gh repo create "$ORG/$REPO" --public --source . --remote origin --push \
-    --description "Sutaria Finance: private, self-hosted personal finance dashboard"
+    --description "Local Ledger: private, self-hosted personal finance dashboard"
 else
   git remote get-url origin >/dev/null 2>&1 || git remote add origin "git@github.com:$ORG/$REPO.git"
   git push -u origin HEAD:main
