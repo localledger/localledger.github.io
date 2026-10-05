@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sutaria Finance</title>
+<meta name="description" content="A private, self-hosted personal finance dashboard. Single user, read-only, runs on the owner's own hardware.">
+<style>
+  :root { --bg:#fafaf7; --fg:#1d1d1b; --muted:#5d5d58; --line:#e3e2dc; --accent:#1f5f8b; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#141413; --fg:#ecebe6; --muted:#a3a29b; --line:#2c2c2a; --accent:#6fb0dc; } }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--fg); font:17px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
+  main { max-width: 680px; margin: 0 auto; padding: 56px 16px 80px; }
+  header { border-bottom:1px solid var(--line); padding-bottom: 20px; margin-bottom: 32px; }
+  h1 { font-size: 28px; margin: 0 0 6px; letter-spacing: -0.01em; }
+  h2 { font-size: 20px; margin: 36px 0 10px; }
+  p, li { color: var(--fg); }
+  .lede { color: var(--muted); margin: 0; }
+  a { color: var(--accent); }
+  nav a { margin-right: 18px; }
+  footer { margin-top: 56px; padding-top: 20px; border-top:1px solid var(--line); color: var(--muted); font-size: 15px; }
+  ul { padding-left: 22px; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>Sutaria Finance</h1>
+    <p class="lede">A private, self-hosted personal finance dashboard.</p>
+    <nav style="margin-top:14px"><a href="/">Home</a><a href="/privacy.html">Privacy Policy</a></nav>
+  </header>
+
+  <h2>What it is</h2>
+  <p>Sutaria Finance is a single-user application that consolidates the owner's own bank, credit card, and brokerage accounts into one local view: balances, transactions, holdings, cash flow, and net worth over time.</p>
+
+  <h2>How it works</h2>
+  <ul>
+    <li>Account data is retrieved through <a href="https://plaid.com">Plaid</a>, a regulated financial data network. Bank usernames and passwords are never seen or stored by this application.</li>
+    <li>All data is stored on a single computer owned and operated by the application's owner. There is no cloud component and no public-facing service.</li>
+    <li>The application is read-only. It cannot move money, place trades, or change anything at any financial institution.</li>
+    <li>Access to the application is limited to the owner, on the owner's own hardware.</li>
+  </ul>
+
+  <h2>Who it is for</h2>
+  <p>This application is operated by its owner for personal use only. It is not offered to the public, has no customers, and collects no information from anyone other than the owner.</p>
+
+  <h2>Contact</h2>
+  <p>Questions about this application can be directed through its <a href="https://github.com/sutaria-finance">GitHub organization</a>.</p>
+
+  <footer>&copy; 2026 Sutaria Finance. Last updated October 5, 2026.</footer>
+</main>
+</body>
+</html>

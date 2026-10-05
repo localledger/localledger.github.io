@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy – Sutaria Finance</title>
+<meta name="description" content="Privacy policy for Sutaria Finance, a private single-user personal finance application.">
+<style>
+  :root { --bg:#fafaf7; --fg:#1d1d1b; --muted:#5d5d58; --line:#e3e2dc; --accent:#1f5f8b; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#141413; --fg:#ecebe6; --muted:#a3a29b; --line:#2c2c2a; --accent:#6fb0dc; } }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--fg); font:17px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
+  main { max-width: 680px; margin: 0 auto; padding: 56px 16px 80px; }
+  header { border-bottom:1px solid var(--line); padding-bottom: 20px; margin-bottom: 32px; }
+  h1 { font-size: 28px; margin: 0 0 6px; letter-spacing: -0.01em; }
+  h2 { font-size: 20px; margin: 36px 0 10px; }
+  .lede { color: var(--muted); margin: 0; }
+  a { color: var(--accent); }
+  nav a { margin-right: 18px; }
+  footer { margin-top: 56px; padding-top: 20px; border-top:1px solid var(--line); color: var(--muted); font-size: 15px; }
+  ul { padding-left: 22px; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>Privacy Policy</h1>
+    <p class="lede">Effective October 5, 2026</p>
+    <nav style="margin-top:14px"><a href="/">Home</a><a href="/privacy.html">Privacy Policy</a></nav>
+  </header>
+
+  <h2>Scope</h2>
+  <p>Sutaria Finance ("the application") is a private, single-user personal finance application operated by its owner for the owner's own use. The only person whose financial data the application processes is the owner. The application has no customers and is not offered to the public.</p>
+
+  <h2>Information collected</h2>
+  <p>With the owner's authorization, the application retrieves the following about the owner's own financial accounts through Plaid Inc. ("Plaid"):</p>
+  <ul>
+    <li>Account names, types, and the last four digits of account numbers</li>
+    <li>Account balances</li>
+    <li>Transaction history</li>
+    <li>Investment holdings and investment transactions</li>
+    <li>Liability details such as credit card balances</li>
+  </ul>
+  <p>The application never receives, stores, or has access to the owner's bank or brokerage usernames or passwords. Authentication with financial institutions is handled by Plaid and, where the institution supports it, by the institution's own OAuth login.</p>
+
+  <h2>How information is used</h2>
+  <p>Information is used solely to present the owner's own balances, spending, holdings, cash flow, and net worth over time. It is not used for advertising, profiling, sale, or any purpose beyond the owner's personal financial review.</p>
+
+  <h2>Where information is stored</h2>
+  <p>All retrieved data is stored on a single computer owned and controlled by the owner, in an encrypted volume. Encrypted backups are kept in the owner's own cloud storage account. No data is stored on any server operated by the application for third parties, and the application exposes no public internet service.</p>
+
+  <h2>Sharing</h2>
+  <p>The application does not share, sell, rent, or transmit the owner's financial data to any third party. The only external party involved is Plaid, which acts as the data connection between financial institutions and the application. Plaid's handling of data is governed by the <a href="https://plaid.com/legal/#end-user-privacy-policy">Plaid End User Privacy Policy</a>.</p>
+
+  <h2>Security</h2>
+  <ul>
+    <li>API credentials and access tokens are stored in the operating system's encrypted credential store, never in configuration files or source code.</li>
+    <li>The computer hosting the application uses full-disk encryption.</li>
+    <li>No inbound network ports are opened for the application. All connections to Plaid are outbound over HTTPS.</li>
+    <li>Full account numbers are not retrieved or stored.</li>
+  </ul>
+
+  <h2>Retention and deletion</h2>
+  <p>Data is retained for as long as the owner chooses to keep historical financial records. The owner can disconnect any institution at any time through the application or through <a href="https://my.plaid.com">Plaid Portal</a>, after which no further data for that institution is retrieved. Local data can be deleted by the owner at any time.</p>
+
+  <h2>Children</h2>
+  <p>The application is not directed to, and does not collect information from, anyone under 18.</p>
+
+  <h2>Changes</h2>
+  <p>Changes to this policy will be posted on this page with an updated effective date.</p>
+
+  <h2>Contact</h2>
+  <p>Questions about this policy can be directed through the application's <a href="https://github.com/sutaria-finance">GitHub organization</a>.</p>
+
+  <footer>&copy; 2026 Sutaria Finance.</footer>
+</main>
+</body>
+</html>
